@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+body > img{
+  width: 100%;
+  height: 800px;
+  border-radius: 100px 0 0 0;
+  display: inherit;
+}
+
+
+/* Header */
+
+.header{
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+
+.header a{
+  margin-right: 40px;
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 300;
+}
+
+.header a:hover{
+  color: aqua;
+}
+
+.header div{
+  display: inline;
+}
+
+.header .left{
+  position: relative;
+  left: 200px;
+}
+
+.header .right{
+  position: relative;
+  left: 800px
+}
+
+/* Content About */
+
+.about{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  width: 25%;
+  text-indent: 5%;
+  text-align: justify;
+}
+
+.about .title{
+  margin-bottom: 15px;
+  color: aqua;
+}
+
+.about .textContent{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffff;
+  font-size: 14px;
+}
+
+/* Content Species */
+
+.containerUnder{
+  position: relative;
+}
+
+body .content > img{
+  width: 100%;
+  height: 1000px;
+  border-radius: 0 0 0 100px;
+}
+
+/* Title Species */
+
+.species{
+  position: absolute;
+  top: 10%;
+}
+
+.species .title h1{
+  margin-left: 500px;
+  color: #fff;
+  text-decoration: underline royalblue;
+  margin-bottom: 10px;
+}
+
+.species p{
+  margin-left: 300px;
+  width: 700px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Cards */
+
+.cards{
+  position: absolute;
+  bottom: 10%;
+  display: grid;
+  margin-left: 200px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.card{
+  box-shadow: 0 0 7px 2px;
+  position: relative; 
+}
+
+.card img{
+  width: 300px;
+  height: 300px;
+}
+
+/*  Description Card*/
+
+.card p{
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+/* Footer */
+
+.footer{
+  color: #fff;
+  position: absolute;
+  bottom: 5%;
+  left: 40%;
+}
